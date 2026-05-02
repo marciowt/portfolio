@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="darkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#0a0a0f"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Fundo escuro com cantos arredondados -->
+  <rect width="100" height="100" rx="22" fill="url(#darkGrad)"/>
+  
+  <!-- Borda sutil -->
+  <rect x="4" y="4" width="92" height="92" rx="18" fill="none" stroke="#2a2a4a" stroke-width="1.5"/>
+  
+  <!-- Iniciais MSS -->
+  <text x="50" y="66" font-family="'Courier New', Courier, monospace" font-size="44" font-weight="bold" fill="#c7c7ff" text-anchor="middle" letter-spacing="-2">MSS</text>
+  
+  <!-- .dev -->
+  <text x="50" y="84" font-family="'Courier New', Courier, monospace" font-size="15" font-weight="500" fill="#8888cc" text-anchor="middle">.dev</text>
+</svg>
